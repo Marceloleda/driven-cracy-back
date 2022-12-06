@@ -2,7 +2,7 @@ import { votesCollection, surveyCollection} from "../database/db.js"
 import { ObjectId } from "mongodb"
 
 
-export async function result(req, res, next){    
+export async function result(req, res){    
     const {id} = req.params
     try{
         const poll = await surveyCollection.findOne({
