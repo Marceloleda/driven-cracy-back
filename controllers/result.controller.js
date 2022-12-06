@@ -13,6 +13,7 @@ export async function result(req, res){
         const query = {createdAt: poll.expireAt} 
         const findVotes =  await votesCollection.find(query).sort({"votes" : -1}).limit(1).toArray()
 
+        console.log(findVotes)
         findVotes.map((id)=>{
             res.send({
                 _id,

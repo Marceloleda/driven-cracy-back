@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx nodemon api.js",
-    "dev": "npx nodemon api.js",
+    "start": "npx nodemon ./api.js",
+    "dev": "npx nodemon ./api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
