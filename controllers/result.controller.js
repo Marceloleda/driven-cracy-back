@@ -1,4 +1,4 @@
-import { votesCollection, surveyCollection, optionsCollection} from "../database/db.js"
+import { votesCollection, surveyCollection} from "../database/db.js"
 import { ObjectId } from "mongodb"
 
 
